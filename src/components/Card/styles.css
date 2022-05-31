@@ -1,0 +1,19 @@
+.box{
+    width: 1114px;
+    height: 144px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.textContainer{
+    text-align: center;
+    gap: 9px;
+}
+
+.textContainer > p {
+    font-size: 32px;
+}
+
+.textContainer > h1 {
+    font-size: 40px;
+}

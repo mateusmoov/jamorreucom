@@ -1,0 +1,38 @@
+.mainContainer{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #181818;
+}
+
+
+.mainContainer > h1{
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+}
+
+.mainContainer > input {
+    border: none;
+    width: 1135px;
+    height: 72px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.mainContainer > input[type='text'] {
+    font-size: 32px;
+    text-align: center;
+}
+
+.mainContainer > input::placeholder {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    color: #BFBFBF;
+
+}
